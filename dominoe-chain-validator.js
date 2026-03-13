@@ -4,6 +4,7 @@
 // For the chain to be valid, the second number of each domino must match the first number of the next domino.
 // The first number of the first domino and the last number of the last domino don't need to match anything.
 
+// Tests:
 // 1. isValidDominoChain([[1, 3], [3, 6], [6, 5]]) should return true.
 // 2. isValidDominoChain([[6, 2], [3, 4], [4, 1]]) should return false.
 // 3. isValidDominoChain([[2, 5], [5, 6], [5, 1]]) should return false.
