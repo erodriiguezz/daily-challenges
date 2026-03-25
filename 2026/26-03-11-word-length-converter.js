@@ -11,5 +11,12 @@
 // 4. convertWords("Lorem ipsum dolor sit amet consectetur adipiscing elit donec ut ligula vehicula iaculis orci vel semper nisl") should return "5 5 5 3 4 11 10 4 5 2 6 8 7 4 3 6 4".
 
 function convertWords(str) {
-  return str;
+  const wordArr = str.split(" ");
+
+  wordArr.map((word, i) => {
+    wordArr[i] = word.length;
+  });
+
+  const newStr = wordArr.join(" ");
+  return newStr;
 }
